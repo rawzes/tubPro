@@ -1,0 +1,131 @@
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" >
+	<meta charset="utf-8">
+		<title></title>
+		<link href = "css/bootstrap.min.css" rel = "stylesheet">
+		
+		
+	</head>
+	<style>
+	/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: auto}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+	/* Set black background color, white text and some padding */
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 15px;
+    }
+	/* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+	</style>
+	<body>
+	<div class="container-fluid">
+	<header>
+        <h3>Могилевский областной<br>
+		противотуберкулёзный диспансер</h3>
+    </header>
+
+<nav class="navbar navbar-inverse">
+  
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Главная</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">История диспансера <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Администрация</a></li>
+        <li><a href="#">«Одно окно»</a></li>
+		<li><a href="#">Вопрос-Ответ</a></li>
+      </ul>
+		<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Электронная Регистратура</a></li>
+			 </ul>	  
+    </div>
+  
+</nav>
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+	<h4 class="sidebar-brand">
+                        Подразделения
+                </h4>
+      <p><a href="#">Физиотерапевтическое отделение</a></p>
+      <p><a href="#">Диспансерное отделение (поликлиника)</a></p>
+      <p><a href="#">Пульмонологические отделения</a></p>
+	  <p><a href="#">Фтизиатрические отделения</a></p>
+	  <p><a href="#">Отделение анестезиологии и реанимаци</a></p>
+	  <p><a href="#">Аптека</a></p>
+	  <p><a href="#">Лаборатория</a></p>
+	  <p><a href="#">Рентгеновское отделение</a></p>
+	  <p><a href="#">Пульмонологические отделения</a></p>
+	  <p><a href="#">Приемное отделение</a></p>
+	  <p><a href="#">Лечебно-диагностические кабинеты</a></p>
+	  <p><a href="#">Профсоюзный комитет УЗ МОПТД</a></p>
+    </div>
+	
+    <div class="col-sm-8 text-left"> 
+      <h1>Content</h1>
+    </div>
+	
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p>РЕГИСТРАТУРА</p>
+			(0222) 44-21-28, 47-84-54
+			(29)1090921, (33)3032611
+			Приемный покой пульм.
+			(0222) 75-16-99
+			Приемный покой туб.
+			(0222) 47-87-51
+      </div>
+      <div class="well">
+        <p>ИНФОРМАЦИЯ</p>
+					Платные услуги
+				График приема
+				Публикации
+				Медицинская деятельность
+				Инструкция об оплате ЕРИП
+				Обращения граждан 
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+</div>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
